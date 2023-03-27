@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@400;500&display=swap');
+
+
+* {
+    margin: 0px;
+    padding-top: 5px;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.informações-atuais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    
+}
+.foto {
+    padding-bottom: 30px;
+    border-bottom: white solid 1px;
+}
+
+
+.informações-atuais .description{
+    font-size: 12px;
+    max-width: 500px;
+   
+
+
+}
+
+.container div h1{
+    display: block;
+}
+.container div p{
+    max-width: 500px;
+    font-size: 12px;
+}
+
+.robert-img {
+    width: 500px;
+    border: solid white 0.5px;
+}
+
+.biografia div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+footer div{
+    border-top: solid gray 1px;
+    font-size: 15px;
+    padding: 20px;
+    width: 480px;
+    text-align: center;
+}
